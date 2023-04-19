@@ -1,0 +1,19 @@
+.description {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+}
+
+.description_image {
+  max-width: 20%;
+  max-height: 20%;
+  object-fit: contain;
+  padding: 5px 10px;
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.description_info {
+  padding: 0 20px;
+  max-width: 60%;
+}
